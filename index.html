@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="assets/logo.png" alt="Logo" class="logo">
+       <h1>Character Counter</h1>
+    </div>
+    <div class="settings">
+        <button>⚙️</button>
+    </div>
+  </header>
+  <main> 
+   <!-- HERO -->
+    <section class="hero">
+      <h2>Analyze your text in real-time</h2>
+      <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+    </section>
+    <section class="checkboxes">
+      <label for="excludeSpaces">
+         <input type="checkbox" id="excludeSpaces">
+        Exclude Spaces
+      </label>
+      <label>
+         <input type="checkbox" id="SetCharacterLimit"> Set Character Limit
+      </label>
+      <p>Approx. reading time: <1 minute</p>
+    </section>
+    <section class="results"> 
+        <div class="card-purple"></div>
+        <div class="card-orange"></div>
+        <div class="card-red"></div>
+    </section>
+    <section class="Letter-Density">
+       <h3>Letter Density</h3>
+       <d class="letters">
+          <label for="letter-e">E:</label>
+          <meter id="letter-e" min="0" max="100" value="40"> 40 (16.06%) </meter>
+        
+          <label for="letter-i">I:</label>
+          <meter id="letter-i" min="0" max="100" value="29"> 29 (11.65%) </meter>
+
+          <label for="letter-t">T:</label>
+          <meter id="letter-t" min="0" max="100" value="28"> 28 (11.24%) </meter>
+        
+          <label for="letter-o">O:</label>
+          <meter id="letter-o" min="0" max="100" value="22"> 22 (8.84%) </meter>
+
+          <label for="letter-n">N:</label>
+          <meter id="letter-n" min="0" max="100" value="21"> 21 (8.43%) </meter>
+       </div>
+    </section> 
+    <button>See more &#9660;</button>
+  </main>
+</body>
+</html>
