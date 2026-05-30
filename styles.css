@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* agregar fuente */
+
+:root {
+    /* fondo principal */
+    --background-color: #12131A;
+    /* fondo de las tarjetas */
+    --card-background: #1C1F2A;
+    /* texto principal */
+    --text-color: #F2F2F7;
+    /* texto secundario */
+    --secondary-text: #B4B7C9;
+    /*cards*/
+    --card-violet: #C99DFF;
+    --card-orange: #FFB21E;
+    --card-coral: #FF8A65;
+    /* barras de progreso */
+    --progress-bar: #D19BFF;
+    --border-color: #2A2D3A;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  8px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+}
+ 
+.logo{
+    width: 30px;
+    height: 30px;
+}
+.settings button {
+    background: var(--card-background);
+    color: var(--text-color);
+    border: none;
+    border-radius: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.1s ease;
+}
+
+.settings button:hover {
+  box-shadow: 0 0 10px var(--card-background);
+}
