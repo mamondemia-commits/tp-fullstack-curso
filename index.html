@@ -19,7 +19,7 @@
   </header>
   <main>
     <section class="hero">
-      <h2>Approx. reading time: &lt;1 minute</h2>
+      <h2>Analyze your text in real-time</h2>
       <textarea id="inputText" placeholder="Enter your text here..."></textarea>
     </section>
     <section class="checkboxes">
@@ -30,40 +30,45 @@
       <label for="SetCharacterLimit">
          <input type="checkbox" id="setCharacterLimit"> Set Character Limit
       </label>
-      <p>Approx. reading time: <1 minute</p>
+      <p>Approx. reading time: &lt;1 minute</p>
     </section>
     <section class="results"> 
         <div class="card purple">
-            <h3>278</h3>
-            <p>Total Characters</p>
+            <span class="stat-number">278</span>
+            <span class="stat-label">Total Characters</span>
         </div>
         <div class="card orange">
-          <h3>39</h3>
-          <p>Word Count</p>
+          <span class="stat-number">39</span>
+          <span class="stat-label">Word Count</span>
         </div>
-        <div class="card red">
-          <h3>04</h3>
-          <p>Sentences Count</p>
+        <div class="card coral">
+          <span class="stat-number">04</span>
+          <span class="stat-label">Sentences Count</span>
         </div>
-        <div class="card red"></div>
     </section>
     <section class="letter-density">
        <h3>Letter Density</h3>
-       <div class="letters">
-          <label for="letter-e">E:</label>
-          <meter id="letter-e" min="0" max="100" value="40"> 40 (16.06%) </meter>
-        
-          <label for="letter-i">I:</label>
-          <meter id="letter-i" min="0" max="100" value="29"> 29 (11.65%) </meter>
-
-          <label for="letter-t">T:</label>
-          <meter id="letter-t" min="0" max="100" value="28"> 28 (11.24%) </meter>
-        
-          <label for="letter-o">O:</label>
-          <meter id="letter-o" min="0" max="100" value="22"> 22 (8.84%) </meter>
-
-          <label for="letter-n">N:</label>
-          <meter id="letter-n" min="0" max="100" value="21"> 21 (8.43%) </meter>
+       <div class="letters-container">
+          <div>
+            <label for="letter-name">E:</label>
+            <meter id="letter-name" min="0" max="100" value="40"> 40 (16.06%) </meter>
+          </div>
+          <div>
+            <label for="letter-name">I:</label>
+            <meter id="letter-name" min="0" max="100" value="29"> 29 (11.65%) </meter>
+          </div>
+          <div>
+           <label for="letter-t">T:</label>
+           <meter id="letter-t" min="0" max="100" value="28"> 28 (11.24%) </meter>
+          </div>
+          <div>
+            <label for="letter-o">O:</label>
+            <meter id="letter-o" min="0" max="100" value="22"> 22 (8.84%) </meter>
+          </div>
+          <div>
+           <label for="letter-n">N:</label>
+           <meter id="letter-n" min="0" max="100" value="21"> 21 (8.43%) </meter>
+          </div>
        </div>
         <button>See more &#9660;</button>
     </section> 
