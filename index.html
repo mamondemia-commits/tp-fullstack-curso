@@ -20,7 +20,7 @@
   <main> 
    <!-- HERO -->
     <section class="hero">
-      <h2>Analyze your text in real-time</h2>
+      <h2>Approx. reading time: &lt;1 minute</h2>
       <textarea id="inputText" placeholder="Enter your text here..."></textarea>
     </section>
     <section class="checkboxes">
@@ -28,8 +28,8 @@
          <input type="checkbox" id="excludeSpaces">
         Exclude Spaces
       </label>
-      <label>
-         <input type="checkbox" id="SetCharacterLimit"> Set Character Limit
+      <label for="SetCharacterLimit">
+         <input type="checkbox" id="setCharacterLimit"> Set Character Limit
       </label>
       <p>Approx. reading time: <1 minute</p>
     </section>
@@ -40,7 +40,7 @@
     </section>
     <section class="Letter-Density">
        <h3>Letter Density</h3>
-       <d class="letters">
+       <div class="letters">
           <label for="letter-e">E:</label>
           <meter id="letter-e" min="0" max="100" value="40"> 40 (16.06%) </meter>
         
