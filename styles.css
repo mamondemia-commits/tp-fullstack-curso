@@ -141,36 +141,61 @@ main {
 .results {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 15px;
 }
 
 .card-purple {
     background-color: var(--card-violet);
+    background-image: url(https://copilot.microsoft.com/th/id/BCO.11404fe4-a703-47f8-92ac-97d75febcfed.png);
     min-height: 140px;
-    border-radius:12px;
-    padding: 20px;
+    border-radius: 12px;
+    padding: 12px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 300px;
 }
 
 .card-orange {
     background-color: var(--card-orange);
+    background-image: url(https://copilot.microsoft.com/th/id/BCO.24e13aa4-ad33-474b-8e42-d45b22b8523b.png);
     min-height: 140px;
-    border-radius:12px;
-    padding: 20px;
+    border-radius: 12px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: right center;  
+    background-size: 250px;
 }
 
 .card-coral {
     background-color: var(--card-coral);
+    background-image: url(https://copilot.microsoft.com/th/id/BCO.338f52bf-4689-4632-a222-2a44881875b7.png);
     min-height: 140px;
-    border-radius:12px;
-    padding: 20px;
+    border-radius: 12px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 250px;
 }
 
+.stat-number {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--background-color);
+}
+
+.stat-label {
+    font-size: 14px;
+    color: var(--background-color);
+}
