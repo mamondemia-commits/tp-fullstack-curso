@@ -251,7 +251,7 @@ main {
 }
 
 .letter-row meter {
-    width: 80%;
+    flex-grow: 1;
     height: 20px;
 }
 
