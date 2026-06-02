@@ -230,3 +230,34 @@ main {
     color: var(--text-color);
     width: 20px;
 }
+
+.letter-row meter {
+    width: 80%;
+    height: 20px;
+}
+
+.letter-row meter::-webkit-meter-bar {
+    background-color: var(--border-color);
+    border-radius: 5px;
+    border: none;
+}
+
+.letter-row meter::-webkit-meter-optimum-value {
+    background-color: var(--progress-bar);
+    border-radius: 5px;
+}
+
+.letter-density button {
+    background: transparent;
+    color: var(--text-color);
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: box-shadow 0.1s ease;
+}
+
+.letter-density button:hover {
+  box-shadow: 0 0 10px var(--card-background);
+}
