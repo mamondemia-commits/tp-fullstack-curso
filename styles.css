@@ -199,3 +199,34 @@ main {
     font-size: 14px;
     color: var(--background-color);
 }
+
+.letter-density {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.letter-density h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.letters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.letter-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.letter-row label {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    width: 20px;
+}
