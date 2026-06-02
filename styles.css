@@ -165,7 +165,7 @@ main {
 
 .card-purple {
     background-color: var(--card-violet);
-    background-image: url(https://copilot.microsoft.com/th/id/BCO.11404fe4-a703-47f8-92ac-97d75febcfed.png);
+    background-image: url(./assets/images/card-purple.png);
     min-height: 140px;
     border-radius: 12px;
     padding: 12px; 
@@ -180,7 +180,7 @@ main {
 
 .card-orange {
     background-color: var(--card-orange);
-    background-image: url(https://copilot.microsoft.com/th/id/BCO.24e13aa4-ad33-474b-8e42-d45b22b8523b.png);
+    background-image: url(./assets/images/card-orange.png);
     min-height: 140px;
     border-radius: 12px;
     padding: 12px;
@@ -195,7 +195,7 @@ main {
 
 .card-coral {
     background-color: var(--card-coral);
-    background-image: url(https://copilot.microsoft.com/th/id/BCO.338f52bf-4689-4632-a222-2a44881875b7.png);
+    background-image: url(./assets/images/card-coral.png);
     min-height: 140px;
     border-radius: 12px;
     padding: 12px;
